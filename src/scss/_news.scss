@@ -1,0 +1,154 @@
+.news {
+  @include center;
+  margin: 4rem auto 0;
+  flex-direction: column;
+  .news-heading {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 180%;
+    /* identical to box height, or 65px */
+
+    color: #2f327d;
+  }
+  .news-sub-heading {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 180%;
+    /* or 43px */
+
+    text-align: center;
+
+    color: #696984;
+  }
+  .content {
+    margin-top: 3rem;
+    display: flex;
+    .left {
+      margin: 0 1.5rem;
+      .image {
+        img {
+          width: 640px;
+          height: 340px;
+        }
+      }
+      .button {
+        @include center;
+        margin-top: 2rem;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 180%;
+        /* identical to box height, or 36px */
+
+        letter-spacing: 0.02em;
+
+        color: #252641;
+        width: 130px;
+        height: 40px;
+
+        background: #f4c467;
+        border-radius: 80px;
+      }
+      .left-heading {
+        width: 609px;
+        height: 94px;
+        left: 200px;
+        top: 10481px;
+
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 26px;
+        line-height: 180%;
+        /* or 47px */
+
+        margin-top: 1rem;
+        color: #252641;
+      }
+      .left-sub-heading {
+        margin-top: 1rem;
+        width: 609px;
+        height: 72px;
+        left: 200px;
+        top: 10595px;
+
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 180%;
+        /* or 36px */
+
+        letter-spacing: 0.02em;
+
+        color: #696984;
+      }
+      .left-read-more {
+        margin-top: 2rem;
+        width: 114px;
+        height: 36px;
+        left: 200px;
+        top: 10695px;
+
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 180%;
+        /* identical to box height, or 36px */
+
+        letter-spacing: 0.02em;
+        text-decoration-line: underline;
+
+        color: #696984;
+      }
+    }
+    .right {
+      margin: 0 1.5rem;
+      .right-card {
+        display: flex;
+        margin-bottom: 1rem;
+        .right-card-content {
+          margin-left: 1rem;
+          .right-content-heading {
+            width: 477px;
+            height: 80px;
+            left: 1280px;
+            top: 10041px;
+
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 22px;
+            line-height: 180%;
+            /* or 40px */
+
+            color: #252641;
+          }
+          .right-content-sub-heading {
+            width: 447px;
+            height: 72px;
+            left: 1280px;
+            top: 10141px;
+            margin-top: 1rem;
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 180%;
+            /* or 36px */
+
+            letter-spacing: 0.02em;
+
+            color: #696984;
+          }
+        }
+      }
+    }
+  }
+}

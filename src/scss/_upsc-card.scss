@@ -1,0 +1,97 @@
+.upsc {
+  @include center;
+  margin: 10rem 0;
+  flex-direction: column;
+  .upsc-view-all-button {
+    @include center;
+    background: #545ae8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    width: 520px;
+    height: 84px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    margin-top: 2rem;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  .upsc-card-row {
+    display: flex;
+    margin: 1rem 0;
+  }
+  .upsc-small-heading {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    margin-bottom: 2rem;
+
+    color: #fe7558;
+  }
+  .upsc-heading {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 70px;
+    line-height: 82px;
+    margin-bottom: 4rem;
+    text-align: center;
+
+    color: #000000;
+  }
+}
+.upsc-card-container {
+  @include center;
+  flex-direction: column;
+  .upsc-card-bottom {
+    margin-top: 0.5rem;
+  }
+  .upsc-card {
+    width: 665px;
+    height: 386.08px;
+    margin: 0 2rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    .upsc-start-now-button {
+      @include center;
+      position: relative;
+      top: 300px;
+      left: 1rem;
+      width: 169.93px;
+      height: 57.9px;
+      cursor: pointer;
+      background: linear-gradient(105.5deg, #545ae7 19.57%, #393fcf 78.85%);
+      border-radius: 60px;
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 22px;
+      line-height: 33px;
+
+      color: #ffffff;
+    }
+    .upsc-add-to-list-button {
+      @include center;
+      position: relative;
+      top: 240px;
+      right: -350px;
+      width: 285px;
+      height: 58.9px;
+      cursor: pointer;
+      background: linear-gradient(105.5deg, #545ae7 19.57%, #393fcf 78.85%);
+      border-radius: 60px;
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 22px;
+      line-height: 33px;
+
+      color: #ffffff;
+    }
+  }
+}

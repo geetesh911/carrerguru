@@ -1,0 +1,43 @@
+@mixin center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;700&family=Poppins:wght@200;300;500&display=swap");
+
+@import "login";
+@import "frame1";
+@import "frame2";
+@import "footer";
+@import "news";
+@import "upsc-card";
+@import "instructor";
+@import "popular-courses";
+@import "dashboard";
+
+.border-button {
+  @include center;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border: 1px solid #f48c06;
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 180%;
+  cursor: pointer;
+  /* or 43px */
+
+  letter-spacing: 0.02em;
+  color: #f48c06;
+  box-sizing: border-box;
+  border-radius: 80px;
+  width: 280px;
+  height: 80px;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: Poppins;
+  font-weight: 300;
+}

@@ -1,0 +1,75 @@
+.popular-courses {
+  @include center;
+  flex-direction: column;
+  margin: 8rem 0;
+  .popular-courses-heading {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+
+    color: #100637;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .popular-courses-cards {
+    display: flex;
+    margin-top: 4rem;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 2rem;
+    .popular-courses-card {
+      margin-bottom: 2.5rem;
+      padding: 1rem;
+      box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+      border-radius: 10px;
+      max-width: 448.48px;
+      flex: 1;
+      .popular-courses-image {
+        img {
+          width: 408.48px;
+          height: 280.82px;
+        }
+      }
+      .popular-courses-card-content {
+        display: flex;
+        width: 100%;
+        margin-top: 1rem;
+
+        .content-heading {
+          width: 402.61px;
+          height: 59.27px;
+
+          font-family: Poppins;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 18px;
+          line-height: 21px;
+
+          color: #000000;
+        }
+      }
+      .popular-courses-footer {
+        margin-top: 2rem;
+        display: flex;
+        .footer-item {
+          @include center;
+          flex: 1;
+          span {
+            margin: 0 1rem;
+
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 14px;
+
+            color: #000000;
+          }
+        }
+      }
+    }
+  }
+}

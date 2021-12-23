@@ -1,0 +1,96 @@
+.footer {
+  margin-top: 10rem;
+  height: 593px;
+  background: #d9daff;
+  @include center;
+  flex-direction: column;
+  .footer-logo {
+    display: flex;
+    align-items: center;
+    .divider {
+      width: 83px;
+      height: 0px;
+      left: 957px;
+      top: 10975px;
+
+      border: 1px solid #ffffff;
+      transform: rotate(90deg);
+    }
+    .logo-text {
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 22px;
+      line-height: 33px;
+      letter-spacing: 0.04em;
+
+      color: #000000;
+    }
+  }
+  .sub-heading {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 39px;
+    margin-top: 2rem;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.04em;
+
+    color: #000000;
+  }
+  .subscribe {
+    display: flex;
+    margin-top: 1rem;
+    z-index: 2;
+
+    .subscribe-input {
+      width: 400px;
+      height: 60px;
+      border: 2px solid #000000;
+      box-sizing: border-box;
+      border-radius: 80px;
+      margin: 0 0.5rem;
+      padding: 0 1rem;
+    }
+    .subscribe-button {
+      @include center;
+      width: 179px;
+      height: 60px;
+      background: linear-gradient(105.5deg, #868688 19.57%, #393fcf 78.85%);
+      border-radius: 60px;
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 22px;
+      line-height: 33px;
+      /* identical to box height */
+      margin: 0 0.5rem;
+      cursor: pointer;
+      color: #ffffff;
+    }
+  }
+  .download-buttons {
+    position: relative;
+    top: -3rem;
+    left: 0;
+  }
+  .footer-links {
+    .copyright {
+      margin-top: 0.5rem;
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 22px;
+      line-height: 33px;
+      /* identical to box height */
+
+      text-align: center;
+      letter-spacing: 0.04em;
+
+      color: #000000;
+    }
+  }
+}
