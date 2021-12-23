@@ -1,9 +1,12 @@
 import { useFormik } from "formik";
 import { FC } from "react";
 import { Accordion, Form, Button } from "react-bootstrap";
+import { useHistory } from "react-router-dom";
 
 const Login: FC = () => {
+  const history = useHistory();
   const initialValues = {};
+
   const formik = useFormik({
     initialValues,
     onSubmit: (values) => {
@@ -54,7 +57,12 @@ const Login: FC = () => {
             placeholder="Password"
             className="login-input"
           ></Form.Control>
-          <Button className="form-control">Login</Button>
+          <Button
+            className="form-control"
+            onClick={() => history.push("/dashboard")}
+          >
+            Login
+          </Button>
         </form>
       </div>
     </div>

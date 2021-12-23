@@ -31,6 +31,9 @@ const Sidebar: FC = () => {
         <div className="option">
           <Option6 />
         </div>
+        <div className="teams">
+          <img src="./assets/teams.png" alt="teams" />
+        </div>
       </div>
       <img
         className="upgrade-to-pro"

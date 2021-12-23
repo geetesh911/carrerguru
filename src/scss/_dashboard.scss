@@ -14,7 +14,8 @@
       display: flex;
       margin-top: 2rem;
       .chart {
-        flex: 1;
+        // flex: 1;
+        margin-right: 2rem;
       }
     }
     .small-heading {
@@ -98,6 +99,29 @@
         }
       }
     }
+    .bottom {
+      display: flex;
+      margin-top: 2rem;
+      .bottom-div {
+        .heading {
+          font-family: Poppins;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 20px;
+          line-height: 20px;
+          /* identical to box height, or 111% */
+
+          color: #272835;
+        }
+      }
+      .bottom-div-content {
+        margin-top: 2rem;
+        margin-right: 3rem;
+        .item {
+          margin-bottom: 0.5rem;
+        }
+      }
+    }
   }
 }
 .sidebar {
@@ -110,9 +134,16 @@
   position: fixed;
   left: 0;
   top: 0;
+  overflow-y: auto;
   .options {
+    margin-top: 2rem;
+    .teams {
+      margin-top: 2rem;
+    }
     margin-bottom: 2rem;
     .option {
+      cursor: pointer;
+      margin: 0rem 0 0.5rem;
       padding: 0 1rem;
       height: 50px;
       width: 253px;

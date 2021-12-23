@@ -1,6 +1,8 @@
 import { FC } from "react";
 import RightSidebar from "../components/RightSidebar";
 import Sidebar from "../components/Sidebar";
+import ProgressLearning from "../components/svgs/ProgressLearning";
+import YourDocumentDiv from "../components/svgs/YourDocumentsDiv";
 
 const Dashboard: FC = () => {
   return (
@@ -28,6 +30,25 @@ const Dashboard: FC = () => {
           </div>
           <div className="chart">
             <img src="./assets/chart2.png" alt="chart2" />
+          </div>
+        </div>
+        <div className="bottom">
+          <div className="bottom-div your-dashboard">
+            <div className="heading">Your documents</div>
+            <div className="bottom-div-content">
+              <div className="item">
+                <YourDocumentDiv />
+              </div>
+              <div className="item">
+                <YourDocumentDiv />
+              </div>
+            </div>
+          </div>
+          <div className="bottom-div your-dashboard">
+            <div className="heading">Progress Learning</div>
+            <div className="bottom-div-content">
+              <ProgressLearning />
+            </div>
           </div>
         </div>
       </div>

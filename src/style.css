@@ -1295,7 +1295,7 @@
 }
 
 .dashboard .content .charts .chart {
-  flex: 1;
+  margin-right: 2rem;
 }
 
 .dashboard .content .small-heading {
@@ -1375,6 +1375,30 @@
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
+.dashboard .content .bottom {
+  display: flex;
+  margin-top: 2rem;
+}
+
+.dashboard .content .bottom .bottom-div .heading {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  /* identical to box height, or 111% */
+  color: #272835;
+}
+
+.dashboard .content .bottom .bottom-div-content {
+  margin-top: 2rem;
+  margin-right: 3rem;
+}
+
+.dashboard .content .bottom .bottom-div-content .item {
+  margin-bottom: 0.5rem;
+}
+
 .sidebar {
   width: 294px;
   height: 100vh;
@@ -1385,13 +1409,21 @@
   position: fixed;
   left: 0;
   top: 0;
+  overflow-y: auto;
 }
 
 .sidebar .options {
+  margin-top: 2rem;
   margin-bottom: 2rem;
 }
 
+.sidebar .options .teams {
+  margin-top: 2rem;
+}
+
 .sidebar .options .option {
+  cursor: pointer;
+  margin: 0rem 0 0.5rem;
   padding: 0 1rem;
   height: 50px;
   width: 253px;
